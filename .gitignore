@@ -1,0 +1,7 @@
+# ignore jedit backup files
+*~
+
+# ignore IDEA specific files
+/out/
+/.idea/
+*.iml
