@@ -43,6 +43,19 @@ Wie es weiterging...
 
 ---
 
+Was ist strukturelle Architektur
+
+--
+
+## Spring Batch Layered Architecture
+
+<div style="position:relative">
+    <img class="plain" src="images/spring-batch-layers.png"/>
+    <div style="position:absolute; bottom:1em; right: 5em">Relaxed Layered<br/>Architecture</div>
+</div>
+
+--
+
 - Was ist strukturelle Architektur
   - Schichten
   - Vertical Slices
