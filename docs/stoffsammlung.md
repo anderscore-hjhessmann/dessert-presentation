@@ -1,9 +1,10 @@
 # Wie alles begann ...
 
 Ausgangssituation:
+
 - 2002
 - EJB 2.0 (OC4J)
-- Webanwendung mit Servlet+HTML (später Struts)
+- Webanwendung mit JSP's (später Struts)
 - JBuilder, später Eclipse
 
 --
@@ -14,7 +15,7 @@ Probleme
   - Für Tests musste immer die ganze Anwendung lauffähig sein
   - Tests waren sehr fragil und mussten ständig angepasst werden
   - Lange Laufzeiten
-- Wiederverwendung von Komponenten unmöglich
+- Wiederverwendung von Komponenten schwierig
   - Ein Source-Repository (ein Projekt in der IDE)
   - Viele IF/ELSE
   - Ganze Sourcezweige wurden kopiert
@@ -58,6 +59,12 @@ Note: Begriffe von Valtech
 
 --
 
+## Strukturelle Architektur
+
+<img class="plain" src="images/strukturelle_architektur.svg"/>
+
+--
+
 Beispiel: Spring-Batch
 
 --
@@ -96,6 +103,22 @@ Lösung: Registry + Events
 - utils mit Abhängigkeiten
 
 ---
+
+# Marktübersicht
+
+- Dependometer von Valtech (https://sourceforge.net/projects/dependometer/)
+- Diverse Open-Source Tools zur Visualisierung von Abhängigkeiten (https://dzone.com/articles/dependency-analysis-and-1)
+- JDepend (mit Plugins für Eclipse/Maven/etc.) (http://mcs.une.edu.au/doc/jdepend/docs/JDepend.html)
+- JDeps (seit JDK8)
+- degraph von Jens Schauder (http://blog.schauderhaft.de/degraph/)
+
+--
+
+## Grafische Tools: 
+- Sonargraph-Architect (https://www.hello2morrow.com/products/sonargraph/architect9)
+- Structure101 (http://structure101.com/)
+
+--
 
 Alternative Produkte
 
