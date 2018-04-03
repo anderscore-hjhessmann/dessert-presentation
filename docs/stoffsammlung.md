@@ -56,12 +56,17 @@ Was ist strukturelle Architektur
 
 --
 
+## Dessert Bausteine und Abhängigkeiten
+
+<img class="plain" src="images/dessert-components.svg"/>
+
+--
+
 - Was ist strukturelle Architektur
   - Schichten
   - Vertical Slices
   - Funktionsblöcke
   - Abhängigkeiten
-  - Relaxed Layered Architecture
 - Was ist physikalische Architektur
   - Tatsächliche Packagestruktur und deren Abhängigkeiten
   - Abbildungsvorschrift: 
@@ -75,14 +80,6 @@ Note: Begriffe von Valtech
 ## Strukturelle Architektur
 
 <img class="plain" src="images/strukturelle_architektur.svg"/>
-
---
-
-Beispiel: Spring-Batch
-
---
-
-Beispiel: Dessert
 
 --
 
