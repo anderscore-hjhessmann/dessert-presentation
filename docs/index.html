@@ -24,6 +24,11 @@
 <body>
 <div class="reveal">
     <div class="slides" style="text-align: left">
+        <section data-markdown="dessert-verwendung.md"
+                 data-separator-vertical="^\r?\n--\r?\n$"
+                 data-separator-notes="^Note:"
+                 data-charset="UTF-8">
+        </section>
         <section data-markdown="stoffsammlung.md"
                  data-separator-vertical="^\r?\n--\r?\n$"
                  data-separator-notes="^Note:"
@@ -50,6 +55,24 @@
                 }
             }
         ],
+
+        // Options which are passed into marked
+        // See https://github.com/chjj/marked#options-1
+        markdown: {
+            smartypants: true
+        },
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+        height: 1024,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.02,
+
+        // Vertical centering of slides
+        center: false,
 
         // Enable slide navigation via mouse wheel
         mouseWheel: true,
