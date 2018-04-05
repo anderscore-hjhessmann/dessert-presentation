@@ -1,3 +1,68 @@
+## &nbsp;
+
+# Dessert
+
+Dependency Assertions Library für Unit-Tests
+
+Features:
+- Prüfung von Abhängigkeitsregeln
+- Erkennung von zyklischen Abhängigkeiten
+
+--
+
+## Dessert's Designziele
+
+- Keine Abhängigkeiten außer JDK 6 (oder neuer)
+- Einfache und intuitive API (motiviert von AssertJ)
+- Assertions sind robust gegenüber Refactorings 
+  (keine Strings für Klassen- oder Packagenamen notwendig)
+- Einfache Integration mit anderen Test- oder Assertion-Frameworks
+- Geschwindigkeit
+
+--
+
+## Dessert
+
+- It's about dependencies between classes 
+- A class X depends on an other class Y if X uses Y,
+  hence
+  - X imports Y,
+  - X uses full qualified classname of Y or
+  - X and Y are in the same package
+
+--
+
+## In this context a 'class' is
+
+is everthing represented by a separate class rootFile:
+
+- traditional java class
+- interface
+- annotation
+- any type of inner class
+- enum
+
+--
+
+## Class X uses class Y means
+
+- X extends or implements Y
+- X has a field, method parameter or local variable of type Y
+- X references a static method of Y
+- X references method of Y (direct call or λ)
+- X throws Y
+- X uses generic type of Y
+
+--
+
+## Begriffe
+
+- Slice
+- SliceEntry (Klasse)
+- SliceContext
+
+--
+
 ## Spring Batch Architektur
 
     @Test
