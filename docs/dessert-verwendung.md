@@ -3,14 +3,16 @@
     @Test
     public void testArchitecture() {
         SliceContext sc = new SliceContext();
-
         Slice springBatch = sc.packageTreeOf("org.springframework.batch");
         Slice springBatchCore = sc.packageTreeOf(Job.class);
         Slice springBatchTest = sc.packageTreeOf(StepRunner.class);
-        Slice springBatchInfrastructure = springBatch.without(springBatchCore).without(springBatchTest);
-
+        Slice springBatchInfrastructure =
+                springBatch.without(springBatchCore).without(springBatchTest);
         SliceAssertions.assertThat(springBatchInfrastructure).doesNotUse(springBatchCore);
     }
+
+<!-- .slide style="position:relative;" -->
+<img src="images/spring-batch-layers.png" class="plain" style="position: absolute; right: 4ex;"/>
 
 --
 
@@ -39,6 +41,9 @@
         dessert(resolve).usesOnly(util, classfile, java);
         dessert(classfile).usesOnly(java);
     }
+
+<img src="images/dessert-components.svg" class="plain" width="594" 
+    style="position: fixed; right: -15%; top: 15%"/>
 
 --
 
@@ -88,17 +93,17 @@ umgekehrt aber nicht.
     @Test
     public void testPackageDependencies() throws IOException {
         Slice slice = new SliceContext().packageTreeOf("de.spricom.dessert");
-        SliceGroup<PackageSlice> subPackages = SliceGroup.splitByPackage(slice);
+        SliceGroup<PackageSlice> packages = SliceGroup.splitByPackage(slice);
 
-        subPackages.forEach(pckg -> SliceAssertions.assertThat(pckg)
-                .doesNotUse(pckg.getParentPackage(subPackages)));
+        packages.forEach(pckg -> SliceAssertions.assertThat(pckg)
+                .doesNotUse(pckg.getParentPackage(packages)));
     }
 
 --
 
 ## Abhängigkeiten explorativ ergründen
 
-Was verwendet Spring-Batch-Core?
+Welche Abhängigkeiten hat Spring-Batch-Core?
 
     @Test
     public void testCoreDependencies() {
