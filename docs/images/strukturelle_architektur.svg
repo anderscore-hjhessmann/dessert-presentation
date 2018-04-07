@@ -117,7 +117,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="514.8018"
+     inkscape:cx="356.71293"
      inkscape:cy="58.70428"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -147,7 +147,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -219,23 +219,23 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="128.14412"
+       x="130.78992"
        y="5.9596963"
        id="text9030"><tspan
          sodipodi:role="line"
          id="tspan9028"
-         x="128.14412"
+         x="130.78992"
          y="5.9596963"
          style="stroke-width:0.26458332">Module Y</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="185.9437"
+       x="188.58949"
        y="5.9596963"
        id="text9034"><tspan
          sodipodi:role="line"
          id="tspan9032"
-         x="185.9437"
+         x="188.58949"
          y="5.9596963"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Vertical Slices</tspan></text>
     <path
@@ -245,7 +245,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:#618ffd;fill-opacity:1;stroke:#000000;stroke-width:0.24436511;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.91667,36.385423 v 10.583333 h 52.91666 V 36.385423 Z"
+       d="m 52.91667,36.556258 v 10.583333 h 52.91666 V 36.556258 Z"
        id="rect3710-7"
        inkscape:connector-curvature="0" />
     <path
@@ -260,27 +260,27 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:#618ffd;fill-opacity:1;stroke:#000000;stroke-width:0.24436511;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 116.41667,16.541673 v 10.583333 h 52.91666 V 16.541673 Z"
+       d="m 119.06252,16.541673 v 10.583333 h 52.91666 V 16.541673 Z"
        id="rect3710-5"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#618ffd;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 140.22917,28.447923 h 5.29167 v 3.96875 h 2.64583 l -5.29167,2.645834 -5.29166,-2.645834 h 2.64583 v -3.96875"
+       d="m 142.87502,28.447923 h 5.29167 v 3.96875 h 2.64583 l -5.29167,2.645834 -5.29166,-2.645834 h 2.64583 v -3.96875"
        id="path29658-2"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#618ffd;fill-opacity:1;stroke:#000000;stroke-width:0.24436511;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 116.41667,36.385423 v 10.583332 h 52.91666 V 36.385423 Z"
+       d="m 119.06252,36.556259 v 10.583332 h 52.91666 V 36.556259 Z"
        id="rect3710-7-83"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#618ffd;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 140.22918,48.291672 h 5.29166 v 3.96875 h 2.64584 l -5.29167,2.645836 -5.29167,-2.645836 h 2.64584 v -3.96875"
+       d="m 142.87503,48.291672 h 5.29166 v 3.96875 h 2.64584 l -5.29167,2.645836 -5.29167,-2.645836 h 2.64584 v -3.96875"
        id="path29658-4-5"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#618ffd;fill-opacity:1;stroke:#000000;stroke-width:0.24436511;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 116.41667,56.229172 v 10.583335 h 52.91666 V 56.229172 Z"
+       d="m 119.06252,56.229172 v 10.583335 h 52.91666 V 56.229172 Z"
        id="rect3710-7-8-6"
        inkscape:connector-curvature="0" />
     <path
@@ -291,7 +291,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-2)"
-       d="M 179.91667,3.3125059 H 166.6875"
+       d="M 182.56252,3.3125059 H 169.33335"
        id="path29726-9"
        inkscape:connector-curvature="0"
        inkscape:transform-center-x="-0.64084759"
@@ -379,5 +379,10 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
          x="187.31963"
          y="98.936325">de.company.moduley.dataaccess</tspan></text>
+    <path
+       style="fill:#618ffd;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.39739,44.493755 v -5.29166 h 3.96875 v -2.64584 l 2.64584,5.29167 -2.64584,5.29167 v -2.64584 h -3.96875"
+       id="path29658-4-5-6"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

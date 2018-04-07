@@ -17,7 +17,7 @@
 
 ## Dessert Bausteine und Abhängigkeiten
 
-<img class="plain" src="images/dessert-components.svg" width="692"/>
+<img class="plain" src="images/dessert-components.svg" width="312"/>
 
 --
 

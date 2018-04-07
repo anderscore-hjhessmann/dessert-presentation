@@ -27,9 +27,9 @@ Note: Suppy-Chain-Lösung (Lieferantenportal, Verschiffung), später Handwerkerp
 
 --
 
-## Dann kam ein Berater...
+## Dann kam ein Berater (mit einem Tool)...
 
-Ursachen
+Identifzierte Problemursachen
   - Packages nach Inhalten sortiert
   - Unklare Zuordnung von Packages zu Funktionsblöcken
   - Abhängigkeiten nicht klar definiert

@@ -1,18 +1,11 @@
 @startuml
-[assertions]
-[groups]
-[sliceing]
-[resolve]
-[util]
-[classfile]
-
 [assertions] --> [groups]
 [assertions] --> [slicing]
 [assertions] --> [util]
 [groups] --> [slicing]
-[sliceing] --> [resolve]
-[sliceing] --> [util]
-[sliceing] --> [classfile]
+[slicing] --> [resolve]
+[slicing] --> [util]
+[slicing] --> [classfile]
 [resolve] --> [util]
 [resolve] --> [classfile]
 @enduml

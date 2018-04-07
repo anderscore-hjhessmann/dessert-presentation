@@ -107,8 +107,8 @@ is everthing represented by a separate class rootFile:
         dessert(classfile).usesOnly(java);
     }
 
-<img src="images/dessert-components.svg" class="plain" width="594" 
-    style="position: fixed; right: -15%; top: 15%"/>
+<img src="images/dessert-components.svg" class="plain" width="312" 
+    style="position: fixed; right: 0; top: 10%"/>
 
 --
 
