@@ -1,0 +1,4 @@
+@startuml
+Class3 ..> Class2
+Class2 ..> Class1
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class ModuleManager {
+  startModuleA()
+  startModuleB()
+}
+ModuleA --> ModuleManager
+ModuleB --> ModuleManager
+ModuleManager --> ModuleA
+ModuleManager --> ModuleB
+@enduml

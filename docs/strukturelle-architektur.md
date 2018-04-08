@@ -60,18 +60,33 @@ Indikatoren:
 
 ## Zirkuläre Abhängigkeiten
 
+<div style="position: relative;">
+    <img class="plain" src="images/circular1.svg" height="566"/>
+    <img class="plain fragment" src="images/circular2.svg" height="566" style="position: absolute; left: 40%"/>
+</div>
+
 --
 
 ## Hotspot
 
 Von einer zentralen Klasse kann man alles aufrufen
-==> Diese Klasse wird überall verwendet
 
-Lösung: Registry + Events
+&rArr; Diese Klasse wird überall verwendet
 
-(erfordert mehrere statt einer Klasse und Interfaces)
+<div style="position:relative">
+<img class="plain" src="images/hotspot.svg" width="444"/>
+<div style="position:absolute; bottom: 20%; left: 50%">
+Lösung: Registry + Events<br/>
+(erfordert Interfaces und mehrere Klassen statt einer Klasse)
+</div>
+</div>
 
 --
 
-Aufwand: Zähneputzen
+## Wie Zähneputzen...
+
+Man muss etwas dafür tun, hat aber keinen unmittelbaren nutzen.
+
+![Zähneputzen](images/man-2166254.svg) <!-- .element: height="500" -->
+<div style="font-size: small">Quelle: https://pixabay.com/de/mann-spiegel-zahn-blau-badezimmer-2166254/</div>
 
