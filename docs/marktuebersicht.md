@@ -42,9 +42,7 @@ Quelle: https://docs.oracle.com/javase/specs/jls/se9/html/jls-7.html#jls-7.7
 ## Build-Tools
 
 Maven [maven-dependency-plugin](https://maven.apache.org/plugins/maven-dependency-plugin/source-repository.html)
-- mvn dependendcy:analyze <br />
-  basiert auf [maven-dependency-analyzer](https://github.com/apache/maven-dependency-analyzer/tree/maven-dependency-analyzer-1.8),
-  dieser verwendet ASM.
+- mvn dependendcy:analyze
 - mvn dependendcy:tree
   
 Gradle
@@ -52,7 +50,7 @@ Gradle
 
 --
 
-## jeps (seit JDK 8)
+## jdeps (seit JDK 8)
 
 Der Aufruf von
 
@@ -113,7 +111,7 @@ liefert (JDK 9):
 Komplexe UI für Softwareanalyse nach vielfältigen Kriterien (Reports, Visualisierung, Refactoring).
 </div>
 
-<img class="plain" src="images/sonargraph-dessert1.png" style="position: fixed; top: 10%; right: 0"/>
+<img class="plain" src="images/sonargraph-dessert.png" style="position: fixed; top: 10%; right: 0"/>
 
 --
 

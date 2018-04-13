@@ -1,6 +1,13 @@
-## Thema (Abgrenzung/Einordnung)
+## Abgrenzung/Einordnung (Flughöhe)
 
-Schichten, Flughöhe
+<table>
+<tr><td><img class="plain" src="images/components.svg"/></td><td>IT Strategie (Blech oder Cloud)</td></tr>
+<tr><td><img class="plain" src="images/components.svg"/></td><td>Systeme/Produkte</td></tr>
+<tr><td><img class="plain" src="images/components.svg"/></td><td>Microservices</td></tr>
+<tr><td><img class="plain" src="images/components.svg"/></td><td>Komponenten</td></tr>
+<tr><td><img class="plain" src="images/classes-and-packages.svg"/></td><td>Klassen und Pakete</td></tr>
+<tr><td><img class="plain" src="images/components.svg"/></td><td>Code</td></tr>
+</table>
 
 --
 

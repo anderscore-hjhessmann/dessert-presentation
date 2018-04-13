@@ -17,17 +17,19 @@ Features:
 - Assertions sind robust gegenüber Refactorings 
   (keine Strings für Klassen- oder Packagenamen notwendig)
 - Einfache Integration mit anderen Test- oder Assertion-Frameworks
-- Geschwindigkeit
+- Speed
 
 --
 
 ## Einschränkungen
 
-Es werden .class Dateien analysiert
+dessert analysiert .class Dateien
+
 - (+) Keine Sourcen notwendig
 - (+) Ablageort der Sourcen egal
 - (+) Sprachunabhängig (Groovy, Kotlin, Scala, ...)
-- (-) Evtl. hat Compiler Abhängigkeiten wegoptimiert
+- (--) Erkennt keine Laufzeitabhängigkeiten
+- (--) Evtl. hat Compiler Abhängigkeiten wegoptimiert
 
 --
 
@@ -38,37 +40,38 @@ ist somit alles, was als eigene .class Datei repräsentiert wird:
 - einfache Java Klassen
 - Interfaces
 - Annotationen
-- jede Art von Innerclass
+- jede Art von Innerclasses
 - Enums 
 
 --
 
 ## Abhängigkeit zwischen Klassen
 
-'Klasse' X hängt von der 'Klasse' Y ab, wenn X die Y verwendet, also
+'Klasse' X hängt von der 'Klasse' Y ab, wenn X 'Klasse' Y verwendet, also
 
 - X erweitert oder implementiert Y
 - X hat ein Feld vom Typ Y
 - X verwendet Y in einer Methodensignator (Parameter, Rückgabewert)
 - X wirft Y
 - X hat lokale Variable vom Typ Y (nicht per Reflection ermittelbar)
-- X verwendet (statische) Methode von Y (direkt oder λ)
+- X verwendet (statische) Methode von Y (direkt oder als Methodenreferenz)
+- X implementiert Innerclass oder λ-Ausdruck von Y
 - X ist mit Y annotiert
-- X verwendet Y als Paramter einer Annotation (Unterschied zu jdeps)
-- X verwendet Y als Generic
+- X verwendet Y als Parameter einer Annotation (Unterschied zu jdeps)
+- X verwendet generischen Typ von Y
 - (Imports spielen keine Rolle)
 
 --
 
-## Bausteine
+## Elemente der dessert API
 
-- Slice (Ausschnitt aus der Menge aller Klassen)
+- **Slice** (Ausschnitt aus der Menge aller Klassen)
   - Methoden: with, without, slice
-- SliceEntry ('Klasse', d. h. .class Datei)
+- **SliceEntry** ('Klasse', d. h. .class Datei)
   - Methoden: getClassName, getClazz
-- SliceContext (Flyweight, Einstiegspunkt)
-  - Methodne: packageOf, packageTreeOf, sliceOf
-- SliceAssertions (statische Methoden, analog zu [AssertJ](https://joel-costigliola.github.io/assertj/))
+- **SliceContext** (Flyweight, Einstiegspunkt)
+  - Methoden: packageOf, packageTreeOf, sliceOf
+- **SliceAssertions** (statische Methoden, analog zu [AssertJ](https://joel-costigliola.github.io/assertj/))
   - Methoden: assertThat, dessert
   - Fluent-API: doesNotUse, usesOnly, uses .and ...only
 
@@ -143,6 +146,9 @@ Man kann Slices auch über Arten von Klassen bilden:
         Slice views = mvp.slice(se -> ViewBase.class.isAssignableFrom(se.getClazz()));
         assertThat(presenters).doesNotUse(views);
     }
+
+GWT: Presenter sollen keine UI-Elemente (Javascript) verwenden, damit die UI-Logik per
+Unittest testbar ist. 
 
 --
 
