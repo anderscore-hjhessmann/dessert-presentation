@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="flughoehe.svg">
+  <defs
+     id="defs2">
+    <filter
+       y="-1"
+       x="-1"
+       width="300%"
+       id="flxnkkofueiu2"
+       height="300%">
+      <feGaussianBlur
+         id="feGaussianBlur3766"
+         stdDeviation="2.0"
+         result="blurOut" />
+      <feColorMatrix
+         id="feColorMatrix3768"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         type="matrix"
+         result="blurOut2"
+         in="blurOut" />
+      <feOffset
+         id="feOffset3770"
+         result="blurOut3"
+         in="blurOut2"
+         dy="4.0"
+         dx="4.0" />
+      <feBlend
+         id="feBlend3772"
+         mode="normal"
+         in2="blurOut3"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       y="-1"
+       x="-1"
+       width="300%"
+       id="frnkqvhx3x9ct"
+       height="300%">
+      <feGaussianBlur
+         id="feGaussianBlur3964"
+         stdDeviation="2.0"
+         result="blurOut" />
+      <feColorMatrix
+         id="feColorMatrix3966"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         type="matrix"
+         result="blurOut2"
+         in="blurOut" />
+      <feOffset
+         id="feOffset3968"
+         result="blurOut3"
+         in="blurOut2"
+         dy="4.0"
+         dx="4.0" />
+      <feBlend
+         id="feBlend3970"
+         mode="normal"
+         in2="blurOut3"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       y="-1"
+       x="-1"
+       width="300%"
+       id="f1lrbjryl8q8n"
+       height="300%">
+      <feGaussianBlur
+         id="feGaussianBlur4090"
+         stdDeviation="2.0"
+         result="blurOut" />
+      <feColorMatrix
+         id="feColorMatrix4092"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         type="matrix"
+         result="blurOut2"
+         in="blurOut" />
+      <feOffset
+         id="feOffset4094"
+         result="blurOut3"
+         in="blurOut2"
+         dy="4.0"
+         dx="4.0" />
+      <feBlend
+         id="feBlend4096"
+         mode="normal"
+         in2="blurOut3"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="684.03003"
+     inkscape:cy="472.15437"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="4608"
+     inkscape:window-height="2451"
+     inkscape:window-x="-14"
+     inkscape:window-y="-14"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4020"
+       transform="matrix(0.26458333,0,0,0.26458333,24.672397,88.253223)">
+      <!--cluster foo-->
+      <polygon
+         id="polygon3975"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1.5;filter:url(#frnkqvhx3x9ct)"
+         points="128,123 22,123 22,24 54,24 61,46.2969 128,46.2969 " />
+      <line
+         id="line3977"
+         y2="46.296902"
+         y1="46.296902"
+         x2="61"
+         x1="22"
+         style="stroke:#000000;stroke-width:1.5" />
+      <text
+         id="text3979"
+         y="38.995098"
+         x="26"
+         textLength="26"
+         lengthAdjust="spacingAndGlyphs"
+         font-weight="bold"
+         font-size="14"
+         style="font-weight:bold;font-size:14px;font-family:sans-serif;fill:#000000">foo</text>
+      <!--cluster bar-->
+      <polygon
+         id="polygon3981"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1.5;filter:url(#frnkqvhx3x9ct)"
+         points="366,123 152,123 152,24 184,24 191,46.2969 366,46.2969 " />
+      <line
+         id="line3983"
+         y2="46.296902"
+         y1="46.296902"
+         x2="191"
+         x1="152"
+         style="stroke:#000000;stroke-width:1.5" />
+      <text
+         id="text3985"
+         y="38.995098"
+         x="156"
+         textLength="26"
+         lengthAdjust="spacingAndGlyphs"
+         font-weight="bold"
+         font-size="14"
+         style="font-weight:bold;font-size:14px;font-family:sans-serif;fill:#000000">bar</text>
+      <!--class Class1-->
+      <rect
+         y="59"
+         x="38.5"
+         width="73"
+         style="fill:#fefece;stroke:#a80036;stroke-width:1.5;filter:url(#frnkqvhx3x9ct)"
+         id="Class1"
+         height="48" />
+      <circle
+         id="ellipse3988"
+         style="fill:#add1b2;stroke:#a80036;stroke-width:1"
+         cy="75"
+         cx="53.5"
+         r="11" />
+      <path
+         id="path3990"
+         d="m 55.8438,70.6719 0.1718,0.0781 c 0.2188,-0.3125 0.4219,-0.4062 0.7188,-0.4062 0.2969,0 0.5781,0.1406 0.7344,0.4062 0.0937,0.1563 0.1093,0.2813 0.1093,0.7188 v 1.4218 c 0,0.4219 -0.0312,0.6094 -0.1406,0.7657 -0.1719,0.2187 -0.4375,0.3593 -0.7031,0.3593 -0.2188,0 -0.4531,-0.1093 -0.5938,-0.25 -0.1406,-0.125 -0.1718,-0.25 -0.2343,-0.6562 -0.0938,-0.4063 -0.2657,-0.625 -0.75,-0.9063 -0.4688,-0.25 -1.0782,-0.4062 -1.6563,-0.4062 -1.7344,0 -2.9844,1.3125 -2.9844,3.0937 v 1.0938 c 0,1.7031 1.2969,2.7969 3.3438,2.7969 0.7656,0 1.4531,-0.125 1.875,-0.3907 0.1875,-0.0937 0.1875,-0.0937 0.6406,-0.5781 0.1875,-0.1875 0.3906,-0.2656 0.6094,-0.2656 0.4687,0 0.8594,0.3906 0.8594,0.8437 0,0.3907 -0.3282,0.8438 -0.9063,1.25 -0.75,0.5469 -1.9062,0.8438 -3.125,0.8438 -2.8906,0 -5,-1.8906 -5,-4.4688 v -1.125 c 0,-2.7187 2,-4.7968 4.625,-4.7968 0.875,0 1.4688,0.1406 2.4063,0.5781 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text3992"
+         y="79.154297"
+         x="67.5"
+         textLength="41"
+         lengthAdjust="spacingAndGlyphs"
+         font-size="12"
+         style="font-size:12px;font-family:sans-serif;fill:#000000">Class1</text>
+      <line
+         id="line3994"
+         y2="91"
+         y1="91"
+         x2="110.5"
+         x1="39.5"
+         style="stroke:#a80036;stroke-width:1.5" />
+      <line
+         id="line3996"
+         y2="99"
+         y1="99"
+         x2="110.5"
+         x1="39.5"
+         style="stroke:#a80036;stroke-width:1.5" />
+      <!--class Class2-->
+      <rect
+         y="59"
+         x="276.5"
+         width="73"
+         style="fill:#fefece;stroke:#a80036;stroke-width:1.5;filter:url(#frnkqvhx3x9ct)"
+         id="Class2"
+         height="48" />
+      <circle
+         id="ellipse3999"
+         style="fill:#add1b2;stroke:#a80036;stroke-width:1"
+         cy="75"
+         cx="291.5"
+         r="11" />
+      <path
+         id="path4001"
+         d="m 293.8438,70.6719 0.1718,0.0781 c 0.2188,-0.3125 0.4219,-0.4062 0.7188,-0.4062 0.2969,0 0.5781,0.1406 0.7344,0.4062 0.0937,0.1563 0.1093,0.2813 0.1093,0.7188 v 1.4218 c 0,0.4219 -0.0312,0.6094 -0.1406,0.7657 -0.1719,0.2187 -0.4375,0.3593 -0.7031,0.3593 -0.2188,0 -0.4531,-0.1093 -0.5938,-0.25 -0.1406,-0.125 -0.1718,-0.25 -0.2343,-0.6562 -0.0938,-0.4063 -0.2657,-0.625 -0.75,-0.9063 -0.4688,-0.25 -1.0782,-0.4062 -1.6563,-0.4062 -1.7344,0 -2.9844,1.3125 -2.9844,3.0937 v 1.0938 c 0,1.7031 1.2969,2.7969 3.3438,2.7969 0.7656,0 1.4531,-0.125 1.875,-0.3907 0.1875,-0.0937 0.1875,-0.0937 0.6406,-0.5781 0.1875,-0.1875 0.3906,-0.2656 0.6094,-0.2656 0.4687,0 0.8594,0.3906 0.8594,0.8437 0,0.3907 -0.3282,0.8438 -0.9063,1.25 -0.75,0.5469 -1.9062,0.8438 -3.125,0.8438 -2.8906,0 -5,-1.8906 -5,-4.4688 v -1.125 c 0,-2.7187 2,-4.7968 4.625,-4.7968 0.875,0 1.4688,0.1406 2.4063,0.5781 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4003"
+         y="79.154297"
+         x="305.5"
+         textLength="41"
+         lengthAdjust="spacingAndGlyphs"
+         font-size="12"
+         style="font-size:12px;font-family:sans-serif;fill:#000000">Class2</text>
+      <line
+         id="line4005"
+         y2="91"
+         y1="91"
+         x2="348.5"
+         x1="277.5"
+         style="stroke:#a80036;stroke-width:1.5" />
+      <line
+         id="line4007"
+         y2="99"
+         y1="99"
+         x2="348.5"
+         x1="277.5"
+         style="stroke:#a80036;stroke-width:1.5" />
+      <!--class Class3-->
+      <rect
+         y="59"
+         x="168.5"
+         width="73"
+         style="fill:#fefece;stroke:#a80036;stroke-width:1.5;filter:url(#frnkqvhx3x9ct)"
+         id="Class3"
+         height="48" />
+      <circle
+         id="ellipse4010"
+         style="fill:#add1b2;stroke:#a80036;stroke-width:1"
+         cy="75"
+         cx="183.5"
+         r="11" />
+      <path
+         id="path4012"
+         d="m 185.8438,70.6719 0.1718,0.0781 c 0.2188,-0.3125 0.4219,-0.4062 0.7188,-0.4062 0.2969,0 0.5781,0.1406 0.7344,0.4062 0.0937,0.1563 0.1093,0.2813 0.1093,0.7188 v 1.4218 c 0,0.4219 -0.0312,0.6094 -0.1406,0.7657 -0.1719,0.2187 -0.4375,0.3593 -0.7031,0.3593 -0.2188,0 -0.4531,-0.1093 -0.5938,-0.25 -0.1406,-0.125 -0.1718,-0.25 -0.2343,-0.6562 -0.0938,-0.4063 -0.2657,-0.625 -0.75,-0.9063 -0.4688,-0.25 -1.0782,-0.4062 -1.6563,-0.4062 -1.7344,0 -2.9844,1.3125 -2.9844,3.0937 v 1.0938 c 0,1.7031 1.2969,2.7969 3.3438,2.7969 0.7656,0 1.4531,-0.125 1.875,-0.3907 0.1875,-0.0937 0.1875,-0.0937 0.6406,-0.5781 0.1875,-0.1875 0.3906,-0.2656 0.6094,-0.2656 0.4687,0 0.8594,0.3906 0.8594,0.8437 0,0.3907 -0.3282,0.8438 -0.9063,1.25 -0.75,0.5469 -1.9062,0.8438 -3.125,0.8438 -2.8906,0 -5,-1.8906 -5,-4.4688 v -1.125 c 0,-2.7187 2,-4.7968 4.625,-4.7968 0.875,0 1.4688,0.1406 2.4063,0.5781 z"
+         inkscape:connector-curvature="0" />
+      <text
+         id="text4014"
+         y="79.154297"
+         x="197.5"
+         textLength="41"
+         lengthAdjust="spacingAndGlyphs"
+         font-size="12"
+         style="font-size:12px;font-family:sans-serif;fill:#000000">Class3</text>
+      <line
+         id="line4016"
+         y2="91"
+         y1="91"
+         x2="240.5"
+         x1="169.5"
+         style="stroke:#a80036;stroke-width:1.5" />
+      <line
+         id="line4018"
+         y2="99"
+         y1="99"
+         x2="240.5"
+         x1="169.5"
+         style="stroke:#a80036;stroke-width:1.5" />
+      <!--
+@startuml
+package "foo" {
+class Class1
+}
+
+package "bar" {
+class Class2
+class Class3
+}
+@enduml
+
+PlantUML version 1.2018.03(Thu Apr 05 16:59:15 UTC 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+    <g
+       id="g4114"
+       transform="matrix(0.26458333,0,0,0.26458333,28.952977,65.365285)">
+      <!--entity DataAccess-->
+      <circle
+         id="ellipse4101"
+         style="fill:#fefece;stroke:#a80036;stroke-width:2;filter:url(#f1lrbjryl8q8n)"
+         cy="37"
+         cx="55"
+         r="8" />
+      <text
+         id="text4103"
+         y="66.995102"
+         x="14"
+         textLength="82"
+         lengthAdjust="spacingAndGlyphs"
+         font-size="14"
+         style="font-size:14px;font-family:sans-serif;fill:#000000">DataAccess</text>
+      <!--entity First Component-->
+      <rect
+         id="rect4105"
+         y="19"
+         x="139.5"
+         width="135"
+         style="fill:#fefece;stroke:#a80036;stroke-width:1.5;filter:url(#f1lrbjryl8q8n)"
+         height="36.296902" />
+      <rect
+         id="rect4107"
+         y="24"
+         x="134.5"
+         width="10"
+         style="fill:#fefece;stroke:#a80036;stroke-width:1.5"
+         height="5" />
+      <rect
+         id="rect4109"
+         y="45.296902"
+         x="134.5"
+         width="10"
+         style="fill:#fefece;stroke:#a80036;stroke-width:1.5"
+         height="5" />
+      <text
+         id="text4111"
+         y="41.995098"
+         x="149.5"
+         textLength="115"
+         lengthAdjust="spacingAndGlyphs"
+         font-size="14"
+         style="font-size:14px;font-family:sans-serif;fill:#000000">First Component</text>
+      <!--link DataAccess to First Component-->
+      <path
+         style="fill:none;stroke:#a80036;stroke-width:1"
+         id="DataAccess-First Component"
+         d="m 64.0647,37 c 14.3612,0 45.6393,0 75.1873,0"
+         inkscape:connector-curvature="0" />
+      <!--
+@startuml
+DataAccess - [First Component]
+@enduml
+
+PlantUML version 1.2018.03(Thu Apr 05 16:59:15 UTC 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+    <image
+       y="47.004051"
+       x="30.301723"
+       id="image4143"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAAbrwAAG68BXhqRHAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGLSURB
+VGiB7Ze9SgNREIW/jQTSWKQwEERsU6SwtIuVQtJrE/xrfAOJjxcCik8gFgr+FWnSBhRZi9xIXG/c
+u27ITJb54BQZduGcubvLCfxNGxgAIyAW1gjoA60Uz3O5VBDCp0/gLGuYlrtR2vw8fQA7oWHKwJ0C
+02nqhwbqKjAbqk5IoFsFRkM1SAvTVGAyq5qzAUqJQOdpiRUy94tXBobIbzyrhs478POEDoBapt3o
+oAbsT3/MBjpevpeF8ct7FRgj//j8V2OX4fuEjoBKjg1JUwEOZwc3yG85r64BIqDBpOoUgUaJSdUp
+Cl2AXdwLteJUmWQpHh3gEfmXOq8egHYEPANbC12RHE8gv9lQvQM9YNup52bJ68SNhqrnOZGrVQ5U
+9wSqJ69L/h/STOyZRcnBKgU69cxOfBdKP0qhmn4UNpy8H4UIeAU2g/ekm5c14B7YA9ZlveTmDbiQ
+NmGEYF1OMdblJGVdTjuxZ2ZdTpOsy1mXM5aEdTnFWJeTlHU57cSemXU5TbIuV4gu9wWfMZz7G9yN
+MgAAAABJRU5ErkJggg==
+"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="15.842242"
+       width="15.039042" />
+  </g>
+</svg>
