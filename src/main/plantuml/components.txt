@@ -1,0 +1,3 @@
+@startuml
+DataAccess - [First Component]
+@enduml

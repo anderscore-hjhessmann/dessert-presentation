@@ -1,0 +1,12 @@
+@startuml
+
+package "foo" {
+class Class1
+}
+
+package "bar" {
+class Class2
+class Class3
+}
+
+@enduml
