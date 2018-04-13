@@ -21,45 +21,56 @@ Features:
 
 --
 
-## Dessert
+## Einschränkungen
 
-- It's about dependencies between classes 
-- A class X depends on an other class Y if X uses Y,
-  hence
-  - X imports Y,
-  - X uses full qualified classname of Y or
-  - X and Y are in the same package
-
---
-
-## In this context a 'class' is
-
-is everthing represented by a separate class rootFile:
-
-- traditional java class
-- interface
-- annotation
-- any type of inner class
-- enum
+Es werden .class Dateien analysiert
+- (+) Keine Sourcen notwendig
+- (+) Ablageort der Sourcen egal
+- (+) Sprachunabhängig (Groovy, Kotlin, Scala, ...)
+- (-) Evtl. hat Compiler Abhängigkeiten wegoptimiert
 
 --
 
-## Class X uses class Y means
+## Eine Klasse im Sinne von dessert
 
-- X extends or implements Y
-- X has a field, method parameter or local variable of type Y
-- X references a static method of Y
-- X references method of Y (direct call or λ)
-- X throws Y
-- X uses generic type of Y
+ist somit alles, was als eigene .class Datei repräsentiert wird: 
+
+- einfache Java Klassen
+- Interfaces
+- Annotationen
+- jede Art von Innerclass
+- Enums 
 
 --
 
-## Begriffe
+## Abhängigkeit zwischen Klassen
 
-- Slice
-- SliceEntry (Klasse)
-- SliceContext
+'Klasse' X hängt von der 'Klasse' Y ab, wenn X die Y verwendet, also
+
+- X erweitert oder implementiert Y
+- X hat ein Feld vom Typ Y
+- X verwendet Y in einer Methodensignator (Parameter, Rückgabewert)
+- X wirft Y
+- X hat lokale Variable vom Typ Y (nicht per Reflection ermittelbar)
+- X verwendet (statische) Methode von Y (direkt oder λ)
+- X ist mit Y annotiert
+- X verwendet Y als Paramter einer Annotation (Unterschied zu jdeps)
+- X verwendet Y als Generic
+- (Imports spielen keine Rolle)
+
+--
+
+## Bausteine
+
+- Slice (Ausschnitt aus der Menge aller Klassen)
+  - Methoden: with, without, slice
+- SliceEntry ('Klasse', d. h. .class Datei)
+  - Methoden: getClassName, getClazz
+- SliceContext (Flyweight, Einstiegspunkt)
+  - Methodne: packageOf, packageTreeOf, sliceOf
+- SliceAssertions (statische Methoden, analog zu [AssertJ](https://joel-costigliola.github.io/assertj/))
+  - Methoden: assertThat, dessert
+  - Fluent-API: doesNotUse, usesOnly, uses .and ...only
 
 --
 

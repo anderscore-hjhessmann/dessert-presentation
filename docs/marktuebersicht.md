@@ -50,6 +50,12 @@ Quelle: https://guides.gradle.org/building-java-9-modules/
 
 --
 
+## IDE's
+
+- IntelliJ IDEA 'Analyze Dependencies ...'
+ 
+--
+
 ## Kommerzielle Tools
 
 - Sonargraph-Architect (https://www.hello2morrow.com/products/sonargraph/architect9)
