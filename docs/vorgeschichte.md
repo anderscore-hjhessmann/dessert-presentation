@@ -1,3 +1,17 @@
+## Abgrenzung/Einordnung
+
+<img class="plain" src="images/flughoehe1.svg"/>
+<!-- .slide data-transition="zoom" -->
+
+--
+
+## Abgrenzung/Einordnung
+
+<img class="plain" src="images/flughoehe2.svg"/>
+<!-- .slide data-transition="zoom" -->
+
+--
+
 ## Abgrenzung/Einordnung (Flughöhe)
 
 <table>

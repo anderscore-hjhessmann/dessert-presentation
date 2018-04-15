@@ -23,34 +23,6 @@
        y="-1"
        x="-1"
        width="300%"
-       id="flxnkkofueiu2"
-       height="300%">
-      <feGaussianBlur
-         id="feGaussianBlur3766"
-         stdDeviation="2.0"
-         result="blurOut" />
-      <feColorMatrix
-         id="feColorMatrix3768"
-         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
-         type="matrix"
-         result="blurOut2"
-         in="blurOut" />
-      <feOffset
-         id="feOffset3770"
-         result="blurOut3"
-         in="blurOut2"
-         dy="4.0"
-         dx="4.0" />
-      <feBlend
-         id="feBlend3772"
-         mode="normal"
-         in2="blurOut3"
-         in="SourceGraphic" />
-    </filter>
-    <filter
-       y="-1"
-       x="-1"
-       width="300%"
        id="frnkqvhx3x9ct"
        height="300%">
       <feGaussianBlur
@@ -112,16 +84,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="684.03003"
-     inkscape:cy="472.15437"
+     inkscape:cx="317.60146"
+     inkscape:cy="483.58294"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="4608"
-     inkscape:window-height="2451"
-     inkscape:window-x="-14"
+     inkscape:window-width="4320"
+     inkscape:window-height="2289"
+     inkscape:window-x="4306"
      inkscape:window-y="-14"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -140,12 +113,12 @@
      id="layer1">
     <g
        id="g4020"
-       transform="matrix(0.26458333,0,0,0.26458333,24.672397,88.253223)">
+       transform="matrix(0.26458333,0,0,0.26458333,19.569718,140.79192)">
       <!--cluster foo-->
       <polygon
          id="polygon3975"
          style="fill:#ffffff;stroke:#000000;stroke-width:1.5;filter:url(#frnkqvhx3x9ct)"
-         points="128,123 22,123 22,24 54,24 61,46.2969 128,46.2969 " />
+         points="22,24 54,24 61,46.2969 128,46.2969 128,123 22,123 " />
       <line
          id="line3977"
          y2="46.296902"
@@ -166,7 +139,7 @@
       <polygon
          id="polygon3981"
          style="fill:#ffffff;stroke:#000000;stroke-width:1.5;filter:url(#frnkqvhx3x9ct)"
-         points="366,123 152,123 152,24 184,24 191,46.2969 366,46.2969 " />
+         points="152,24 184,24 191,46.2969 366,46.2969 366,123 152,123 " />
       <line
          id="line3983"
          y2="46.296902"
@@ -328,7 +301,7 @@ Country: US
     </g>
     <g
        id="g4114"
-       transform="matrix(0.26458333,0,0,0.26458333,28.952977,65.365285)">
+       transform="matrix(0.26458333,0,0,0.26458333,35.378572,128.48731)">
       <!--entity DataAccess-->
       <circle
          id="ellipse4101"
@@ -397,23 +370,59 @@ Country: US
 -->
     </g>
     <image
-       y="47.004051"
-       x="30.301723"
+       y="100.48768"
+       x="42.585949"
        id="image4143"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
-AAAbrwAAG68BXhqRHAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGLSURB
-VGiB7Ze9SgNREIW/jQTSWKQwEERsU6SwtIuVQtJrE/xrfAOJjxcCik8gFgr+FWnSBhRZi9xIXG/c
-u27ITJb54BQZduGcubvLCfxNGxgAIyAW1gjoA60Uz3O5VBDCp0/gLGuYlrtR2vw8fQA7oWHKwJ0C
-02nqhwbqKjAbqk5IoFsFRkM1SAvTVGAyq5qzAUqJQOdpiRUy94tXBobIbzyrhs478POEDoBapt3o
-oAbsT3/MBjpevpeF8ct7FRgj//j8V2OX4fuEjoBKjg1JUwEOZwc3yG85r64BIqDBpOoUgUaJSdUp
-Cl2AXdwLteJUmWQpHh3gEfmXOq8egHYEPANbC12RHE8gv9lQvQM9YNup52bJ68SNhqrnOZGrVQ5U
-9wSqJ69L/h/STOyZRcnBKgU69cxOfBdKP0qhmn4UNpy8H4UIeAU2g/ekm5c14B7YA9ZlveTmDbiQ
-NmGEYF1OMdblJGVdTjuxZ2ZdTpOsy1mXM5aEdTnFWJeTlHU57cSemXU5TbIuV4gu9wWfMZz7G9yN
-MgAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAbrwAAG68BXhqRHAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGLSURB VGiB7Ze9SgNREIW/jQTSWKQwEERsU6SwtIuVQtJrE/xrfAOJjxcCik8gFgr+FWnSBhRZi9xIXG/c u27ITJb54BQZduGcubvLCfxNGxgAIyAW1gjoA60Uz3O5VBDCp0/gLGuYlrtR2vw8fQA7oWHKwJ0C 02nqhwbqKjAbqk5IoFsFRkM1SAvTVGAyq5qzAUqJQOdpiRUy94tXBobIbzyrhs478POEDoBapt3o oAbsT3/MBjpevpeF8ct7FRgj//j8V2OX4fuEjoBKjg1JUwEOZwc3yG85r64BIqDBpOoUgUaJSdUp Cl2AXdwLteJUmWQpHh3gEfmXOq8egHYEPANbC12RHE8gv9lQvQM9YNup52bJ68SNhqrnOZGrVQ5U 9wSqJ69L/h/STOyZRcnBKgU69cxOfBdKP0qhmn4UNpy8H4UIeAU2g/ekm5c14B7YA9ZlveTmDbiQ NmGEYF1OMdblJGVdTjuxZ2ZdTpOsy1mXM5aEdTnFWJeTlHU57cSemXU5TbIuV4gu9wWfMZz7G9yN MgAAAABJRU5ErkJggg== "
        style="image-rendering:optimizeQuality"
        preserveAspectRatio="none"
        height="15.842242"
        width="15.039042" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28479934"
+       x="133.21225"
+       y="81.012199"
+       id="text127"><tspan
+         sodipodi:role="line"
+         id="tspan125"
+         x="133.21225"
+         y="81.012199"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934">IT-Strategie</tspan><tspan
+         sodipodi:role="line"
+         x="133.21225"
+         y="98.474701"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934"
+         id="tspan135">Systemlandschaft</tspan><tspan
+         sodipodi:role="line"
+         x="133.21225"
+         y="115.9372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934"
+         id="tspan139">Produkte</tspan><tspan
+         sodipodi:role="line"
+         x="133.21225"
+         y="133.3997"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934"
+         id="tspan141">Mircoservices</tspan><tspan
+         sodipodi:role="line"
+         x="133.21225"
+         y="150.8622"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934"
+         id="tspan145">Komponenten</tspan><tspan
+         sodipodi:role="line"
+         x="133.21225"
+         y="168.32469"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934"
+         id="tspan147">Pakete und Klassen</tspan><tspan
+         sodipodi:role="line"
+         x="133.21225"
+         y="185.7872"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934"
+         id="tspan149">Code</tspan><tspan
+         sodipodi:role="line"
+         x="133.21225"
+         y="203.24969"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:2.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.28479934"
+         id="tspan143" /></text>
   </g>
 </svg>
