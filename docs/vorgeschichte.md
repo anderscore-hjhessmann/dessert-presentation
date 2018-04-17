@@ -1,30 +1,3 @@
-## Abgrenzung/Einordnung
-
-<img class="plain" src="images/flughoehe1.svg"/>
-<!-- .slide data-transition="zoom" -->
-
---
-
-## Abgrenzung/Einordnung
-
-<img class="plain" src="images/flughoehe2.svg"/>
-<!-- .slide data-transition="zoom" -->
-
---
-
-## Abgrenzung/Einordnung (Flughöhe)
-
-<table>
-<tr><td><img class="plain" src="images/components.svg"/></td><td>IT Strategie (Blech oder Cloud)</td></tr>
-<tr><td><img class="plain" src="images/components.svg"/></td><td>Systeme/Produkte</td></tr>
-<tr><td><img class="plain" src="images/components.svg"/></td><td>Microservices</td></tr>
-<tr><td><img class="plain" src="images/components.svg"/></td><td>Komponenten</td></tr>
-<tr><td><img class="plain" src="images/classes-and-packages.svg"/></td><td>Klassen und Pakete</td></tr>
-<tr><td><img class="plain" src="images/components.svg"/></td><td>Code</td></tr>
-</table>
-
---
-
 ## &nbsp; 
 
 # Wie alles begann ...
