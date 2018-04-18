@@ -51,14 +51,15 @@ ist somit alles, was als eigene .class Datei repräsentiert wird:
 
 - X erweitert oder implementiert Y
 - X hat ein Feld vom Typ Y
-- X verwendet Y in einer Methodensignator (Parameter, Rückgabewert)
-- X wirft Y
+- X verwendet Y in einer Methodensignator (Parameter, Rückgabewert, Throws)
 - X hat lokale Variable vom Typ Y (nicht per Reflection ermittelbar)
 - X verwendet (statische) Methode von Y (direkt oder als Methodenreferenz)
-- X implementiert Innerclass oder λ-Ausdruck von Y
+- X wirft Y
+- X implementiert Y ueber einen λ-Ausdruck
+- X ist Innerclass von Y oder umgekehrt
+- X verwendet generischen Typ von Y
 - X ist mit Y annotiert
 - X verwendet Y als Parameter einer Annotation (Unterschied zu jdeps)
-- X verwendet generischen Typ von Y
 - (Imports spielen keine Rolle)
 
 --
