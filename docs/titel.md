@@ -6,8 +6,8 @@
 
 ## Inhalt
 
-- Vorgeschichte
 - Einordnung/Abgrenzung
+- Vorgeschichte
 - Was ist strukturelle Architektur?
 - Bad Smells
 - Tools zur Architekturanalyse
