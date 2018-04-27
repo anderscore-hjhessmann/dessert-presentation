@@ -51,11 +51,11 @@ ist somit alles, was als eigene .class Datei repräsentiert wird:
 
 - X erweitert oder implementiert Y
 - X hat ein Feld vom Typ Y
-- X verwendet Y in einer Methodensignator (Parameter, Rückgabewert, Throws)
+- X verwendet Y in einer Methodensignatur (Parameter, Rückgabewert, Throws)
 - X hat lokale Variable vom Typ Y (nicht per Reflection ermittelbar)
 - X verwendet (statische) Methode von Y (direkt oder als Methodenreferenz)
 - X wirft Y
-- X implementiert Y ueber einen λ-Ausdruck
+- X implementiert Y über einen λ-Ausdruck
 - X ist Innerclass von Y oder umgekehrt
 - X verwendet generischen Typ von Y
 - X ist mit Y annotiert
@@ -148,7 +148,7 @@ Man kann Slices auch über Arten von Klassen bilden:
         assertThat(presenters).doesNotUse(views);
     }
 
-GWT: Presenter sollen keine UI-Elemente (Javascript) verwenden, damit die UI-Logik per
+GWT: Presenter sollen keine UI-Elemente (JavaScript) verwenden, damit die UI-Logik per
 Unittest testbar ist. 
 
 --

@@ -30,8 +30,6 @@
   - Funktionsblöcke
   - Abhängigkeiten
 
-Note: Begriffe von Valtech
-
 --
 
 ## Strukturelle Architektur
@@ -76,7 +74,7 @@ Von einer zentralen Klasse kann man alles aufrufen
 <div style="position:relative">
 <img class="plain" src="images/hotspot.svg" width="444"/>
 <div style="position:absolute; bottom: 20%; left: 50%">
-<p style="margin-bottom:5ex">An der Commit-History zu erkennen</p>
+<p style="margin-bottom:5ex">An der Commit-Historie zu erkennen</p>
 Lösung: Registry + Events<br/>
 (erfordert Interfaces und mehrere Klassen statt einer Klasse)
 </div>

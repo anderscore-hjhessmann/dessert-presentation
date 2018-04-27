@@ -29,14 +29,14 @@ Note: Suppy-Chain-Lösung (Lieferantenportal, Verschiffung), später Handwerkerp
 
 ## Dann kam ein Berater (mit einem Tool)...
 
-Identifzierte Problemursachen
+Identifizierte Problemursachen
   - Packages nach Inhalten sortiert
   - Unklare Zuordnung von Packages zu Funktionsblöcken
   - Abhängigkeiten nicht klar definiert
   - Zirkuläre Abhängigkeiten
   - Hotspot (eine Klasse, um die sich alle rangeln)
 
-Note: Valtech mit Dependometer, Funktionsblöcke und Abhängigkeiten mussten als XML definiert werden
+Note: Dependometer, Funktionsblöcke und Abhängigkeiten mussten als XML definiert werden
 
 --
 

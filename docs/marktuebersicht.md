@@ -14,7 +14,7 @@ Welche Hilfestellungen gibt es?
 Dabei kommt es auf die richtige Granularität an!
 
 **Nachteile:**
-- Änderung bestehender Komponentenarchitektur schwierg
+- Änderung bestehender Komponentenarchitektur schwierig
 - Vermischung von Ebenen/Zuständigkeiten
 
 --
