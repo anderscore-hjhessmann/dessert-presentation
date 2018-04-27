@@ -203,3 +203,13 @@ Welche Abhängigkeiten hat Spring-Batch-Core?
                 .and(sc.packageTreeOf(Element.class))
                 .only();
     }
+
+--
+
+## Ausblick
+
+- Besserer SliceGroup-Support (Simulation von Refactorings)
+- API für Modulbibliotheken
+- Java 9 Moduldefinitionen auswerten
+- Support für [@API Guardian](https://github.com/apiguardian-team/apiguardian)
+- Generierung von Abhängigkeitsdiagrammen für Softwarebausteine

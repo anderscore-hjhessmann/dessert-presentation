@@ -16,15 +16,24 @@
 
 --
 
-## Über mich
+## Über mich...
 
-- Softwareentwickler (Dipl.-Inf) 
+- Software Engineer (Dipl.-Inf) 
 - Bei anderScore seit Okt. 2017
 - Ca. 20 Jahre im Java-Umfeld unterwegs
+- Schwerpunkte:
+  - Java/Web-Entwicklung im Business-Umfeld
+  - Frontend, Backend, Batch, Schnittstellen
+  - Entwicklung, Konzeption, QS, Go-Live
 - Interessen:
-  - Software zur Softwareentwicklung einsetzen
-    (automatisieren, repetive Tätigkeiten vermeiden)
+  - Tooling für Softwareentwicklung
   - 'Documentation as Code'
   - Software Analytics
   - Legacy Software
   - Kotlin
+
+<!-- .slide: style="position:relative" -->
+<div style="position:absolute; top: 20%; right: 0">
+<img class="plain" src="images/user-hjhessmann.jpg"/>
+<div>Hans Jörg Heßmann</div>
+</div>

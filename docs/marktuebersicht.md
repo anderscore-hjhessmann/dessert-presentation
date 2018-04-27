@@ -11,7 +11,11 @@ Welche Hilfestellungen gibt es?
 - Ein Projekt in mehrere Teilprojekte mit definierten Abhängigkeiten aufteilen
 - Multi-Module Projekte mit Maven oder Gradle
  
-Dabei kommt es auf die richtige Granularität an
+Dabei kommt es auf die richtige Granularität an!
+
+**Nachteile:**
+- Änderung bestehender Komponentenarchitektur schwierg
+- Vermischung von Ebenen/Zuständigkeiten
 
 --
 
