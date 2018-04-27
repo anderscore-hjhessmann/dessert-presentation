@@ -124,6 +124,8 @@ Komplexe UI für Softwareanalyse nach vielfältigen Kriterien (Reports, Visualis
 - [Dependometer](https://sourceforge.net/projects/dependometer/)
 - [Class Dependency Analyzer (CDA)](http://www.dependency-analyzer.org/)
 - [JDepend (mit Plugins für Eclipse/Maven/etc.)](http://mcs.une.edu.au/doc/jdepend/docs/JDepend.html)
-- [degraph von Jens Schauder](http://blog.schauderhaft.de/degraph/)
+- [degraph](http://blog.schauderhaft.de/degraph/)
+- [ArchUnit](https://github.com/TNG/ArchUnit)
+- [jQAssistant](https://buschmais.github.io/jqassistant/doc/1.3.0/) ([Neo4j](http://neo4j.org/), [AsciiDoc](http://asciidoctor.org/docs/what-is-asciidoc/))
 - und weitere...
 
