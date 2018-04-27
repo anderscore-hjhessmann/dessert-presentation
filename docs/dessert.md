@@ -120,6 +120,7 @@ ist somit alles, was als eigene .class Datei repräsentiert wird:
         dessert(slicing).usesOnly(resolve, util, classfile, java);
         dessert(resolve).usesOnly(util, classfile, java);
         dessert(classfile).usesOnly(java);
+        dessert(util).usesOnly(java);
     }
 
 <img src="images/dessert-components.svg" class="plain" width="312" 
@@ -158,9 +159,13 @@ Unittest testbar ist.
 Packages von dessert sind zyklenfrei:
 
     @Test
-    public void testCycleFree() throws IOException {
+    public void testCycleFree() {
         Slice slice = new SliceContext().packageTreeOf("de.spricom.dessert");
-        SliceGroup<PackageSlice> subPackages = SliceGroup.splitByPackage(slice);
+
+        SliceGroup<PackageSlice> sg = SliceGroup.splitByPackage(slice);
+        SliceAssertions.dessert(sg).isCycleFree();
+
+        // short form:
         SliceAssertions.dessert(slice).splitByPackage().isCycleFree();
     }
 
@@ -202,6 +207,21 @@ Welche Abhängigkeiten hat Spring-Batch-Core?
                 .and(sc.packageTreeOf("com.fasterxml.jackson"))
                 .and(sc.packageTreeOf(Element.class))
                 .only();
+    }
+
+--
+
+## Duplikate im Classpath finden
+
+Welche Duplikate gibt es auf dem CLASSPATH?
+
+    @Test
+    public void testNoDuplicates() {
+        ConcreteSlice duplicates = new SliceContext().duplicates();
+        StringBuilder sb = new StringBuilder();
+        duplicates.getSliceEntries()
+            .forEach(entry -> sb.append(entry.getURI()).append("\n"));
+        assertThat(duplicates.getSliceEntries()).as(sb.toString()).isEmpty();
     }
 
 --
